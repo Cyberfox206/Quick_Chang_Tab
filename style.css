@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2a80b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    border-radius: 15px;
+    height: 25%;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    height: 33%;
+}
+
+#section_pnn {
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+
+#type_of_input {
+    width: 100%;
+    height: 40%;
+}
+
+
+input {
+    width: 62%;
+    bottom: -15px;
+    left: 50px;
+    border: none;
+    position: absolute;
+    border-bottom: gray solid 3px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-bottom: black solid 3px;
+}
+
+button {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    padding: 15px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#text_modifier {
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+#positive {
+    color: grey;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#negative {
+    color: grey;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#neutral {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}

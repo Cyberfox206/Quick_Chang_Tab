@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello</title>
+</head>
+
+<body>
+  <div>
+    <form id="form">
+      <input id="input" name="submitted-name" autocomplete="name" placeholder="Enter tab index">
+      <button type="button" id="change_tab">change tab</button>
+    </form>
+    <section id="section_pnn">
+      <p id="positive" class="pnn">positive</p>
+      <p id="negative" class="pnn">negative</p>
+      <p id="neutral" class="pnn">neutral</p>
+    </section>
+    <section id="type_of_input">
+      <p id="text_modifier"></p>
+    </section>
+  </div>
+  <script src="js.js"></script>
+</body>
+
 </html>
